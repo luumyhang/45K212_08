@@ -1,0 +1,36 @@
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+a:hover {
+    color: #333;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #555;
+    border-color: #555;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #333;
+    border-color: #333;
+}
+
+.foot-btn{
+    padding-top: 15px;
+    display: flex;
+    justify-content: right;
+}
+
+.foot-btn .back{
+    margin-left: 10px;
+}
+
+.foot-btn .back a{
+    color: white;
+}
