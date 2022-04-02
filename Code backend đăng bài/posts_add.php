@@ -1,1 +1,0 @@
-<?php require 'posts_xuly.php';?>
