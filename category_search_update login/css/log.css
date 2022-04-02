@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+     display: flex;
+     width: 100vw;
+     height: 100vh;
+     background: url(../img/nen.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.log-form{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width: 350px;
+    height:400px;
+    background: transparent;
+    color: #fff;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main h1{
+    /* color: white; */
+    position: relative;
+    margin: 40px 0 30px;
+    padding-bottom: 12px;
+    width: fit-content;
+    font-size: 20px;
+    color: white;
+}
+.main h1::before{
+    content:"";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 1.5px;
+    background: white;
+    bottom: 0;
+}
+
+.main h2{
+    margin: 40px 0 30px;
+    padding-bottom: 12px;
+    width: fit-content;
+    font-size: 17px;
+    color: rgb(172, 172, 172);
+}
+.main h2:hover{
+    display: block;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.btn{
+    position: relative;
+    padding: 0 30px;
+}
+
+form button{
+    width: 130px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 29px -4px rgba(255,255,255,0.5);
+    position: relative;
+}
+
+.btn a{
+    color: rgba(255,255,255,0.5);
+}
+
+.form-in{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.form-in input{
+    width: 100%;
+    height: 45px;
+    padding-left: 30px;
+    border: none;
+    border-bottom: 2px solid whitesmoke;
+    outline: none;
+    font-size: 16px;
+    background: transparent;
+}
+
+.form-in input::placeholder{
+    color: #fff;
+}
+
+.form-in i{
+    position: absolute;
+    font-size: 20px;
+    line-height: 37px;
+    color: white;
+}
